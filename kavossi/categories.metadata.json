@@ -1,1 +1,0 @@
-{ "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "kavossi.categories", "name" : "_id_" }, { "v" : 1, "key" : { "parent" : 1 }, "ns" : "kavossi.categories", "name" : "parent_1", "background" : true, "safe" : null }, { "v" : 1, "key" : { "path" : 1 }, "ns" : "kavossi.categories", "name" : "path_1", "background" : true, "safe" : null } ] }
