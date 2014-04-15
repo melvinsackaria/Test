@@ -5,7 +5,7 @@ var consolidate = require('consolidate');
 var MongoClient = mongodb.MongoClient;
 
 stashed change check pishkoooooo
-1234
+piskkkk123232132131
 
 MongoClient.connect('mongodb://CMP:CMP@localhost/CMP', function (err, db) {
     if (err) throw err;
