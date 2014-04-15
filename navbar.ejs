@@ -1,0 +1,42 @@
+<!-- navbar -->
+<div id="navbar" class="row">
+    <div class="col-md-3">
+        <h1><font id="header_font">&nbsp &nbsp S 4 Students</font></h1>
+    </div>
+    <div class="col-md-9">
+        <div class="dropdown-wrap">
+            <i class="dropdown-icon dropdown-icon2"></i>
+            <ul class="dropdown clearfix">
+                <li><a href="/Home"><span>Home</span></a></li>
+                <li><a href="/posts?category=complaint"><span>Complaints</span></a></li>
+                <li><a href="/posts?category=entertainment"><span>Entertainment</span></a></li>
+                <li><a href="/posts?category=helpdesk"><span>Helpdesk</span></a>
+                    <ul>
+                        <li><a href="/post?category=helpdesk&subcategory=aadhaar">Get your Aadhaar</a></li>
+                        <li><a href="/post?category=helpdesk&subcategory=votersid">Voter's ID registration</a></li>
+                    </ul>
+                </li>
+                <li><a href="/campaigns"><span>Campaigns</span></a></li>
+				<% if(!user){%>
+				<li> <a href='/signin'> <span>SIGNIN </span></a></li>
+				<% } else {%>
+				<li><a href='/signout '><span>SIGNOUT</span></a></li>
+				<%}%>
+				<% if(user && user.role && user.role == 1){%>
+                <li class="rounded_notification"><a href="/notifs"title="notifications"><span><div class="round_notification"> <strong><%=notifCount%></strong> </div> </span></a> </li>
+                <% }  %>
+            </ul>
+        </div>
+    </div>
+</div>
+ 
+
+<!-- / navbar -->
+
+
+
+
+
+
+
+
