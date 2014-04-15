@@ -1,0 +1,1 @@
+{ "options" : { "create" : "products" }, "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "kavossi.products", "name" : "_id_" } ] }
